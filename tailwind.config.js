@@ -15,7 +15,11 @@ export default {
          white: 'hsl(0, 0%, 100%)',
       },
 
-      extend: {},
+      extend: {
+         width: {
+            1200: '75rem',
+         },
+      },
 
       fontFamily: {
          sans: ['Public Sans', 'sans-serif'],
