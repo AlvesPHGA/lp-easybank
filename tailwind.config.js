@@ -19,6 +19,10 @@ export default {
          width: {
             1200: '75rem',
          },
+
+         spacing: {
+            52: '52px',
+         },
       },
 
       fontFamily: {
