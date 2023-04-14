@@ -5,7 +5,7 @@ import imgMockups from '../../../../assets/images/image-mockups.png';
 const Subheader = () => {
    return (
       <section className="border relative h-70vh flex">
-         <div className="w-1200 m-auto border">
+         <div className="w-1200 m-auto">
             <h1 className=" w-[600px]">Next generation digital banking</h1>
             <p className="w-[500px] text-grayishBlue my-7">
                Take your financial life online. Your Easybank account will be a
@@ -14,7 +14,7 @@ const Subheader = () => {
             </p>
             <Button />
          </div>
-         <div className="absolute top-[-90px] left-[730px] h-[90vh] border shrink-1 z-[-1]">
+         <div className="absolute top-[-90px] left-[730px] h-[90vh] shrink-1 z-[-1]">
             <div className="shrink-0 h-full w-[50vw] border-brightCyan border">
                <img
                   className="w-full h-full"
