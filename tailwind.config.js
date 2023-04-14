@@ -15,9 +15,31 @@ export default {
          white: 'hsl(0, 0%, 100%)',
       },
 
+      fontSize: {
+         title: `${38 / 16}rem`,
+      },
+
       extend: {
          width: {
             1200: '75rem',
+
+            '40vw': '40vw',
+            '50vw': '50vw',
+            '60vw': '60vw',
+            '70vw': '70vw',
+            '80vw': '80vw',
+            '90vw': '90vw',
+            '100vw': '100vw',
+         },
+
+         height: {
+            '40vh': '40vh',
+            '50vh': '50vh',
+            '60vh': '60vh',
+            '70vh': '70vh',
+            '80vh': '80vh',
+            '90vh': '90vh',
+            '100vh': '100vh',
          },
 
          spacing: {
@@ -26,7 +48,7 @@ export default {
       },
 
       fontFamily: {
-         sans: ['Public Sans', 'sans-serif'],
+         publicSans: ['Public Sans, sans-serif'],
       },
 
       screens: {

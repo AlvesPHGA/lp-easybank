@@ -6,7 +6,7 @@ import Button from '../../..//components/Button';
 
 const Header = () => {
    return (
-      <header className="h-24 flex">
+      <header className="h-24 flex bg-white">
          <div className="w-1200 m-auto flex justify-between items-center">
             <div className="flex h-7">
                <img className="cursor-pointer" src={logoLP} alt="Logo site" />
