@@ -16,7 +16,6 @@
       font-family: 'Public Sans', sans-serif;
    }
 
-   h2,
    h3 {
       font-weight: 700;
    }
@@ -26,7 +25,12 @@
       line-height: 4.4rem;
    }
 
+   h2 {
+      font-size: 2rem;
+   }
+
    p {
       font-size: 1.25rem;
+      line-height: 1.87rem;
    }
 }

@@ -5,7 +5,7 @@ import backIntroDesk from '../../../../assets/svg/bg-intro-desktop.svg';
 
 const Subheader = () => {
    return (
-      <section className="relative h-[67vh] flex bg-lightGrayishBlue z-0">
+      <section className="relative h-[67vh] flex bg-veryLightGray z-0">
          <div
             className="absolute right-0 z-[-1] w-[57vw] h-[100vh] top-[-215px] bg-cover bg-no-repeat bg-[50px]"
             style={{ backgroundImage: `url('${backIntroDesk}')` }}
