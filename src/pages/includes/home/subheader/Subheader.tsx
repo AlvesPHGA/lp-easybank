@@ -11,7 +11,9 @@ const Subheader = () => {
             style={{ backgroundImage: `url('${backIntroDesk}')` }}
          ></div>
          <div className="w-1200 m-auto">
-            <h1 className=" w-[600px]">Next generation digital banking</h1>
+            <h1 className="text-darkBlue w-[600px]">
+               Next generation digital banking
+            </h1>
             <p className="w-[500px] text-grayishBlue my-7">
                Take your financial life online. Your Easybank account will be a
                one-stop for spending, saving, budgeting, investing, and much
