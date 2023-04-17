@@ -1,10 +1,15 @@
 import Button from '../../../../components/Button';
 
 import imgMockups from '../../../../assets/images/image-mockups.png';
+import backIntroDesk from '../../../../assets/svg/bg-intro-desktop.svg';
 
 const Subheader = () => {
    return (
-      <section className="border relative h-70vh flex">
+      <section className="relative h-70vh flex bg-lightGrayishBlue z-0">
+         <div
+            className="absolute right-0 z-[-1] w-[57vw] h-[100vh]  bg-cover bg-[38px -212px] bg-no-repeat "
+            style={{ backgroundImage: `url('${backIntroDesk}')` }}
+         ></div>
          <div className="w-1200 m-auto">
             <h1 className=" w-[600px]">Next generation digital banking</h1>
             <p className="w-[500px] text-grayishBlue my-7">
@@ -14,15 +19,10 @@ const Subheader = () => {
             </p>
             <Button />
          </div>
-         <div className="absolute top-[-90px] left-[730px] h-[90vh] shrink-1 z-[-1]">
-            <div className="shrink-0 h-full w-[50vw] border-brightCyan border">
-               <img
-                  className="w-full h-full"
-                  src={imgMockups}
-                  alt="Images devices"
-               />
-            </div>
-         </div>
+         <div
+            className="absolute w-[50vw] h-[90vh] z-[-1] bg-no-repeat bg-cover bg-[103px -103px] right-0"
+            style={{ backgroundImage: `url('${imgMockups}')` }}
+         ></div>
       </section>
    );
 };

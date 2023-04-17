@@ -2,6 +2,10 @@
 export default {
    content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
    theme: {
+      backdropInvert: {
+         backSubDesktop: "url('./src/assets/svg/bg-intro-desktop.svg')",
+      },
+
       colors: {
          // Primary
          darkBlue: 'hsl(233, 26%, 24%)',
