@@ -12,7 +12,7 @@ const ChooseEasybank = () => {
                financial hub. Control your finances like never before.
             </p>
 
-            <div className="flex gap-4">
+            <div className="flex gap-4 justify-between">
                {dataCardChooseEasybank.map((dt) => (
                   <Card key={dt.id} {...dt} />
                ))}
