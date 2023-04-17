@@ -5,9 +5,9 @@ import backIntroDesk from '../../../../assets/svg/bg-intro-desktop.svg';
 
 const Subheader = () => {
    return (
-      <section className="relative h-70vh flex bg-lightGrayishBlue z-0">
+      <section className="relative h-[67vh] flex bg-lightGrayishBlue z-0">
          <div
-            className="absolute right-0 z-[-1] w-[57vw] h-[100vh]  bg-cover bg-[38px -212px] bg-no-repeat "
+            className="absolute right-0 z-[-1] w-[57vw] h-[100vh] top-[-215px] bg-cover bg-no-repeat bg-[50px]"
             style={{ backgroundImage: `url('${backIntroDesk}')` }}
          ></div>
          <div className="w-1200 m-auto">
@@ -20,7 +20,7 @@ const Subheader = () => {
             <Button />
          </div>
          <div
-            className="absolute w-[50vw] h-[90vh] z-[-1] bg-no-repeat bg-cover bg-[103px -103px] right-0"
+            className="absolute w-[50vw] h-[90vh] z-[-1] bg-no-repeat bg-cover bg-[103px] top-[-103px] posi right-0"
             style={{ backgroundImage: `url('${imgMockups}')` }}
          ></div>
       </section>
