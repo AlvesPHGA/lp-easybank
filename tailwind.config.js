@@ -2,8 +2,13 @@
 export default {
    content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
    theme: {
-      backdropInvert: {
-         backSubDesktop: "url('./src/assets/svg/bg-intro-desktop.svg')",
+      backgroundSize: {
+         custom: '95% 100%',
+         custom02: '140% 100%',
+      },
+
+      backgroundPosition: {
+         customPosition01: '48px 1px',
       },
 
       colors: {
