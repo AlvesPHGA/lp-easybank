@@ -1,4 +1,5 @@
 import React from 'react';
+import { dataContentCard } from './dataCardLatestArticles';
 
 const LatestArticle = () => {
    return (
@@ -7,14 +8,18 @@ const LatestArticle = () => {
             <h2 className="text-darkBlue mb-10">Latest Articles</h2>
 
             <section>
-               <div>
-                  <div></div>
-                  <div>
-                     <span></span>
-                     <h3></h3>
-                     <p></p>
-                  </div>
-               </div>
+               {dataContentCard.map((dt) => (
+                  <a key={dt.id}>
+                     <div>
+                        <img src={dt.img} alt={dt.title} />
+                     </div>
+                     <div>
+                        <span>{dt.author}</span>
+                        <h3>{dt.title}</h3>
+                        <p>{dt.content}</p>
+                     </div>
+                  </a>
+               ))}
             </section>
          </section>
       </section>
