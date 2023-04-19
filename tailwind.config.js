@@ -5,6 +5,7 @@ export default {
       backgroundSize: {
          custom: '95% 100%',
          custom02: '140% 100%',
+         custom03: '100% 100%',
       },
 
       backgroundPosition: {
@@ -26,6 +27,9 @@ export default {
 
       fontSize: {
          title: `${38 / 16}rem`,
+         titleCard: `${18 / 16}rem`,
+         author: `${12 / 16}rem`,
+         textCard: `${14 / 16}rem`,
       },
 
       extend: {

@@ -1,5 +1,6 @@
 import React from 'react';
 import { dataContentCard } from './dataCardLatestArticles';
+import Card from './Card';
 
 const LatestArticle = () => {
    return (
@@ -7,18 +8,9 @@ const LatestArticle = () => {
          <section className="w-1200 mx-auto">
             <h2 className="text-darkBlue mb-10">Latest Articles</h2>
 
-            <section>
+            <section className="flex justify-between">
                {dataContentCard.map((dt) => (
-                  <a key={dt.id}>
-                     <div>
-                        <img src={dt.img} alt={dt.title} />
-                     </div>
-                     <div>
-                        <span>{dt.author}</span>
-                        <h3>{dt.title}</h3>
-                        <p>{dt.content}</p>
-                     </div>
-                  </a>
+                  <Card key={dt.id} {...dt} />
                ))}
             </section>
          </section>
