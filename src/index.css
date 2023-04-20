@@ -49,6 +49,16 @@
       height: 40px;
    }
 
+   .iconSociaMedia:hover {
+      transition: 0.2s ease-in-out;
+      transform: scale(1.5);
+   }
+
+   .iconSociaMedia > path:hover {
+      fill: hsl(136, 65%, 51%);
+      transition: 0.2s ease-in-out;
+   }
+
    .about {
       grid-area: about;
    }

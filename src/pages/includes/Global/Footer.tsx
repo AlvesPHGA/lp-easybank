@@ -15,11 +15,11 @@ const Footer: React.FC = () => {
             <div>
                <Logo className="logo mb-12" />
                <div className="flex items-center gap-2">
-                  <Facebook className="iconSociaMedia" />
-                  <YouTube className="iconSociaMedia" />
-                  <Twitter className="iconSociaMedia" />
-                  <Pinterest className="iconSociaMedia" />
-                  <Instagram className="iconSociaMedia" />
+                  <Facebook className="iconSociaMedia cursor-pointer" />
+                  <YouTube className="iconSociaMedia cursor-pointer" />
+                  <Twitter className="iconSociaMedia cursor-pointer" />
+                  <Pinterest className="iconSociaMedia cursor-pointer" />
+                  <Instagram className="iconSociaMedia cursor-pointer" />
                </div>
             </div>
 
