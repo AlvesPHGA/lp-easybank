@@ -69,6 +69,7 @@ export default {
          mediumDevice: { min: '375px', max: '424px' },
          largerDevice: { min: '425px', max: '767px' },
          tablet: { min: '768px', max: '1023px' },
+         highResolution: { min: '1920px' },
       },
    },
    plugins: [],
