@@ -24,12 +24,24 @@ const Footer: React.FC = () => {
             </div>
 
             <div className="navFooter mr-28">
-               <a className="about text-white text-sm">About Us</a>
-               <a className="contact text-white text-sm">Contact</a>
-               <a className="blog text-white text-sm">Blog</a>
-               <a className="career text-white text-sm">Careers</a>
-               <a className="support text-white text-sm">Support</a>
-               <a className="policy text-white text-sm">Privacy Policy</a>
+               <a className="about text-white text-sm hover:delay-200 hover:text-limeGreen cursor-pointer">
+                  About Us
+               </a>
+               <a className="contact text-white text-sm hover:delay-200 hover:text-limeGreen cursor-pointer">
+                  Contact
+               </a>
+               <a className="blog text-white text-sm hover:delay-200 hover:text-limeGreen cursor-pointer">
+                  Blog
+               </a>
+               <a className="career text-white text-sm hover:delay-200 hover:text-limeGreen cursor-pointer">
+                  Careers
+               </a>
+               <a className="support text-white text-sm hover:delay-200 hover:text-limeGreen cursor-pointer">
+                  Support
+               </a>
+               <a className="policy text-white text-sm hover:delay-200 hover:text-limeGreen cursor-pointer">
+                  Privacy Policy
+               </a>
             </div>
 
             <div className="text-right">
