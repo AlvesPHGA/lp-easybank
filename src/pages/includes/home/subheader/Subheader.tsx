@@ -20,9 +20,7 @@ const Subheader = () => {
                more.
             </p>
 
-            <div className="smallDevice:inline smallDevice:text-center">
-               <Button />
-            </div>
+            <Button />
          </div>
          <div
             className="absolute w-[50vw] h-[840px] z-[-1] bg-no-repeat bg-custom bg-[152px] top-[-115px] posi right-0"
