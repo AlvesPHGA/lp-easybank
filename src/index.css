@@ -16,6 +16,10 @@
       font-family: 'Public Sans', sans-serif;
    }
 
+   #root {
+      position: relative;
+   }
+
    h1 {
       font-size: 4rem;
       line-height: 4.4rem;
