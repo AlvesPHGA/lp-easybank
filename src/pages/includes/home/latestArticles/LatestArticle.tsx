@@ -6,7 +6,9 @@ const LatestArticle = () => {
    return (
       <section className="bg-veryLightGray py-28 smallDevice:py-10">
          <section className="w-1200 mx-auto smallDevice:w-full smallDevice:px-4">
-            <h2 className="text-darkBlue mb-10">Latest Articles</h2>
+            <h2 className="text-darkBlue mb-10 smallDevice:text-center smallDevice:mb-5">
+               Latest Articles
+            </h2>
 
             <section className="flex justify-between smallDevice:flex-col gap-6">
                {dataContentCard.map((dt) => (
