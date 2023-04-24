@@ -10,7 +10,7 @@ const Subheader = () => {
             className="absolute right-0 z-[-1] w-[57vw] h-[100vh] top-[-215px] bg-cover bg-no-repeat bg-customPosition01 bg-custom02"
             style={{ backgroundImage: `url('${backIntroDesk}')` }}
          ></div>
-         <div className="w-1200 m-auto smallDevice:w-full smallDevice:py-1">
+         <div className="w-1200 m-auto smallDevice:w-full smallDevice:px-4">
             <h1 className="text-darkBlue w-[600px] smallDevice:w-full smallDevice:text-4xl smallDevice:text-center">
                Next generation digital banking
             </h1>
@@ -20,7 +20,7 @@ const Subheader = () => {
                more.
             </p>
 
-            <div className=" smallDevice:my-auto">
+            <div className="smallDevice:inline smallDevice:text-center">
                <Button />
             </div>
          </div>
