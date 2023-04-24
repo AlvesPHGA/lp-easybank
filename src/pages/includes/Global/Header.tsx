@@ -2,9 +2,10 @@ import React from 'react';
 
 import logoLP from '../../../assets/svg/logo.svg';
 import NavHeader from '../../../components/NavHeader';
-import Button from '../../..//components/Button';
+import Button from '../../../components/Button';
+import Hamburger from '../../../components/Hamburger';
 
-import { ReactComponent as Hamburger } from '../../../assets/svg/icon-hamburger.svg';
+// import { ReactComponent as Hamburger } from '../../../assets/svg/icon-hamburger.svg';
 
 const Header = () => {
    return (
@@ -13,7 +14,7 @@ const Header = () => {
             <div className="flex h-7">
                <img className="cursor-pointer" src={logoLP} alt="Logo site" />
             </div>
-            <div className="hidden smallDevice:block">
+            <div className="hidden smallDevice:block smallDevice:h-fit">
                <Hamburger />
             </div>
             <NavHeader />
