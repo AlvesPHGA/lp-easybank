@@ -10,16 +10,19 @@ const Subheader = () => {
             className="absolute right-0 z-[-1] w-[57vw] h-[100vh] top-[-215px] bg-cover bg-no-repeat bg-customPosition01 bg-custom02"
             style={{ backgroundImage: `url('${backIntroDesk}')` }}
          ></div>
-         <div className="w-1200 m-auto">
-            <h1 className="text-darkBlue w-[600px]">
+         <div className="w-1200 m-auto smallDevice:w-full smallDevice:py-1">
+            <h1 className="text-darkBlue w-[600px] smallDevice:w-full smallDevice:text-4xl smallDevice:text-center">
                Next generation digital banking
             </h1>
-            <p className="w-[500px] text-grayishBlue my-7">
+            <p className="w-[500px] text-grayishBlue my-7 smallDevice:w-full smallDevice:text-center">
                Take your financial life online. Your Easybank account will be a
                one-stop for spending, saving, budgeting, investing, and much
                more.
             </p>
-            <Button />
+
+            <div className=" smallDevice:my-auto">
+               <Button />
+            </div>
          </div>
          <div
             className="absolute w-[50vw] h-[840px] z-[-1] bg-no-repeat bg-custom bg-[152px] top-[-115px] posi right-0"
