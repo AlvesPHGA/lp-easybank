@@ -2,10 +2,17 @@
 export default {
    content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
    theme: {
+      backgroundImage: {
+         backDesktop: 'url(./src/assets/svg/bg-intro-desktop.svg)',
+         backDevice: 'url(./src/assets/svg/bg-intro-mobile.svg)',
+      },
+
       backgroundSize: {
          custom: '95% 100%',
          custom02: '140% 100%',
          custom03: '100% 100%',
+
+         c_mbl01: '105% 145%',
       },
 
       backgroundPosition: {

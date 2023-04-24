@@ -5,11 +5,8 @@ import backIntroDesk from '../../../../assets/svg/bg-intro-desktop.svg';
 
 const Subheader = () => {
    return (
-      <section className="relative h-fit pt-[7rem] pb-[7.7rem] flex bg-veryLightGray z-0">
-         <div
-            className="absolute right-0 z-[-1] w-[57vw] h-[100vh] top-[-215px] bg-cover bg-no-repeat bg-customPosition01 bg-custom02"
-            style={{ backgroundImage: `url('${backIntroDesk}')` }}
-         ></div>
+      <section className="relative h-fit pt-[7rem] pb-[7.7rem] flex bg-veryLightGray z-0 smallDevice:flex smallDevice:flex-col">
+         <div className="absolute right-0 z-[-1] w-[57vw] h-[100vh] top-[-215px] bg-backDesktop bg-cover bg-no-repeat bg-customPosition01 bg-custom02 smallDevice:relative smallDevice:w-[100vw] smallDevice:h-[40vh] smallDevice:mt-[203px] smallDevice:border smallDevice:bg-backDevice smallDevice:bg-c_mbl01"></div>
          <div className="w-1200 m-auto">
             <h1 className="text-darkBlue w-[600px]">
                Next generation digital banking
@@ -22,7 +19,7 @@ const Subheader = () => {
             <Button />
          </div>
          <div
-            className="absolute w-[50vw] h-[840px] z-[-1] bg-no-repeat bg-custom bg-[152px] top-[-115px] posi right-0"
+            className="absolute w-[50vw] h-[840px] z-[-1] bg-no-repeat bg-custom bg-[152px] top-[-115px] posi right-0 smallDevice:hidden"
             style={{ backgroundImage: `url('${imgMockups}')` }}
          ></div>
       </section>
