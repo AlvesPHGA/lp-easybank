@@ -15,6 +15,9 @@ const Header = () => {
             </div>
             <Hamburger />
             <NavHeader />
+            <div className="smallDevice:hidden">
+               <Button />
+            </div>
          </div>
       </header>
    );

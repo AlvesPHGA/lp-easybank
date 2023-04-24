@@ -37,6 +37,15 @@
       font-size: 1.25rem;
       line-height: 1.87rem;
    }
+
+   button {
+      background: linear-gradient(
+         to right,
+         hsl(136, 65%, 51%),
+         50%,
+         hsl(192, 70%, 51%)
+      );
+   }
 }
 
 @layer utilities {
