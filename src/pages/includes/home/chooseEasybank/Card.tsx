@@ -19,7 +19,9 @@ const Card = ({
             className="smallDevice:px-auto smallDevice:inline"
          />
          <div>
-            <h3 className="mt-8 mb-6 text-darkBlue">{title}</h3>
+            <h3 className="mt-8 mb-6 text-darkBlue smallDevice:my-5">
+               {title}
+            </h3>
             <p
                className="text-grayishBlue smallDevice:text-[1rem]"
                style={{ fontSize: `${18 / 16}rem` }}
