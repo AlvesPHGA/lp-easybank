@@ -58,6 +58,15 @@
          font-size: 1rem;
          line-height: 1.5rem;
       }
+
+      nav {
+         height: calc(100vh-100px);
+         background: linear-gradient(180deg, hsl(233, 26%, 24%), transparent);
+      }
+
+      a {
+         font-size: 1.5rem;
+      }
    }
 }
 
