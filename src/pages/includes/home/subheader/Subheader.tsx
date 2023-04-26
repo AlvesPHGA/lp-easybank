@@ -11,7 +11,7 @@ const Subheader = () => {
             <h1 className="text-darkBlue w-[600px] smallDevice:w-full smallDevice:text-4xl smallDevice:text-center">
                Next generation digital banking
             </h1>
-            <p className="w-[500px] text-grayishBlue my-7 smallDevice:w-full smallDevice:text-center">
+            <p className="w-[500px] text-grayishBlue my-7 smallDevice:w-full smallDevice:text-center smallDevice:my-5">
                Take your financial life online. Your Easybank account will be a
                one-stop for spending, saving, budgeting, investing, and much
                more.
