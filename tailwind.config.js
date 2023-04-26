@@ -5,6 +5,8 @@ export default {
       backgroundImage: {
          backDesktop: 'url(./src/assets/svg/bg-intro-desktop.svg)',
          backDevice: 'url(./src/assets/svg/bg-intro-mobile.svg)',
+
+         mockup: 'url(./src/assets/images/image-mockups.png)',
       },
 
       backgroundSize: {
@@ -12,7 +14,7 @@ export default {
          custom02: '140% 100%',
          custom03: '100% 100%',
 
-         c_mbl01: '105% 145%',
+         cBS_mbl01: '110% 160%',
       },
 
       backgroundPosition: {
