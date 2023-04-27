@@ -47,10 +47,6 @@
       );
    }
 
-   header nav a .active {
-      color: red;
-   }
-
    @media (max-width: 320px) {
       h1,
       h2 {
