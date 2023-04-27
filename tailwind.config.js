@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin');
+
 /** @type {import('tailwindcss').Config} */
 export default {
    content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
@@ -81,5 +83,9 @@ export default {
          highResolution: { min: '1920px' },
       },
    },
-   plugins: [],
+   plugins: [
+      plugin(function ({ addVariant }) {
+         addVariant('current', '&.active');
+      }),
+   ],
 };
