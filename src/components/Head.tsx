@@ -11,7 +11,7 @@ const Head = ({
    return (
       <HelmetProvider>
          <Helmet>
-            <title>{title}</title>
+            <title>{title} | Easybank</title>
             <meta name="description" content={`${description}`} />
          </Helmet>
       </HelmetProvider>
