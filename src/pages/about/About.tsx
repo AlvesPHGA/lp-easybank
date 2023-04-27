@@ -4,7 +4,7 @@ import Subheader from '../includes/Global/Subheader';
 const About = () => {
    const title = 'About';
    return (
-      <div className="h-[100vh]">
+      <div className="h-[calc(100vh-340px)]">
          <Subheader title="About" />
       </div>
    );
