@@ -1,11 +1,15 @@
 import React from 'react';
 import Subheader from '../includes/Global/Subheader';
+import Head from '../../components/Head';
 
 const Careers = () => {
    return (
-      <div className="h-[calc(100vh-340px)]">
-         <Subheader title="Careers" />
-      </div>
+      <>
+         <Head title="Careers" description="" />
+         <div className="h-[calc(100vh-340px)]">
+            <Subheader title="Careers" />
+         </div>
+      </>
    );
 };
 
