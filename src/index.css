@@ -38,7 +38,7 @@
       line-height: 1.87rem;
    }
 
-   button {
+   .cta {
       background: linear-gradient(
          to right,
          hsl(136, 65%, 51%),

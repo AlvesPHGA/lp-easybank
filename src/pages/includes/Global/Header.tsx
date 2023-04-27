@@ -14,9 +14,7 @@ const Header = () => {
             <div className="flex h-7">
                <img className="cursor-pointer" src={logoLP} alt="Logo site" />
             </div>
-            <div className="hidden smallDevice:block smallDevice:h-5">
-               <Hamburger />
-            </div>
+            <Hamburger />
             <NavHeader />
             <div className="smallDevice:hidden">
                <Button />

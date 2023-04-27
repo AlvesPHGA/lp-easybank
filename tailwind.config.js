@@ -44,6 +44,10 @@ export default {
       },
 
       extend: {
+         boxShadow: {
+            hamburger: '0 6px currentColor, 0 -6px currentColor',
+         },
+
          width: {
             1200: '75rem',
 

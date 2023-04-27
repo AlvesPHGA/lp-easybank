@@ -2,7 +2,9 @@ import React from 'react';
 
 const Hamburger = () => {
    return (
-      <div className="hamburger hidden relative top-[50%] translate-y-[-50%] w-12 h-[2.5px] rounded bg-darkBlue active:bg-transparent after:absolute after:bg-darkBlue after:h-[2.5px] after:w-12 after:top-[5px] after:rounded before:absolute before:bg-darkBlue before:h-[2.5px] before:bottom-[5px] before:w-12 before:rounded smallDevice:block after:active:rotate-[45deg] after:active:top-[-3px] before:active:top-[-3px] before:active:rotate-[135px]"></div>
+      <button className="w-[50px] h-8 border rounded px-1">
+         <span className="relative w-full h-1 rounded bg-darkBlue block before:absolute before:w-full before:h-1 before:bg-darkBlue before:border before:left-0 before:bottom-[6px] before:rounded after:absolute after:w-full after:h-1 after:bg-darkBlue after:border after:left-0 after:top-[6px] after:rounded"></span>
+      </button>
    );
 };
 
