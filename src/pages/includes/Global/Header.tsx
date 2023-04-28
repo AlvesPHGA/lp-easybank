@@ -5,9 +5,9 @@ import NavHeader from '../../../components/NavHeader';
 import Button from '../../../components/Button';
 import Hamburger from '../../../components/Hamburger';
 
-// import { ReactComponent as Hamburger } from '../../../assets/svg/icon-hamburger.svg';
-
 const Header = () => {
+   const [active, setActive] = React.useState(false);
+
    return (
       <header className="h-24 flex bg-white relative z-[100] smallDevice:fixed smallDevice:w-[100vw] smallDevice:top-0 smallDevice:h-[100px]">
          <div className="w-1200 m-auto flex justify-between items-center smallDevice:w-full smallDevice:px-4">

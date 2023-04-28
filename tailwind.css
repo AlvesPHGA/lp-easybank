@@ -606,6 +606,14 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
 .h-24 {
   height: 6rem;
 }
@@ -888,6 +896,47 @@ video {
   color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
 
+.before\:absolute::before {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:bottom-\[6px\]::before {
+  content: var(--tw-content);
+  bottom: 6px;
+}
+
+.before\:left-0::before {
+  content: var(--tw-content);
+  left: 0px;
+}
+
+.before\:h-1::before {
+  content: var(--tw-content);
+  height: 0.25rem;
+}
+
+.before\:w-full::before {
+  content: var(--tw-content);
+  width: 100%;
+}
+
+.before\:rounded::before {
+  content: var(--tw-content);
+  border-radius: 0.25rem;
+}
+
+.before\:border::before {
+  content: var(--tw-content);
+  border-width: 1px;
+}
+
+.before\:bg-darkBlue::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: hsl(233 26% 24% / var(--tw-bg-opacity));
+}
+
 .after\:absolute::after {
   content: var(--tw-content);
   position: absolute;
@@ -903,9 +952,9 @@ video {
   top: 52px;
 }
 
-.after\:block::after {
+.after\:top-\[6px\]::after {
   content: var(--tw-content);
-  display: block;
+  top: 6px;
 }
 
 .after\:h-1::after {
@@ -918,9 +967,14 @@ video {
   width: 100%;
 }
 
-.after\:rounded-sm::after {
+.after\:rounded::after {
   content: var(--tw-content);
-  border-radius: 0.125rem;
+  border-radius: 0.25rem;
+}
+
+.after\:border::after {
+  content: var(--tw-content);
+  border-width: 1px;
 }
 
 .after\:bg-darkBlue::after {
