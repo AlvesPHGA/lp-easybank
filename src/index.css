@@ -67,6 +67,10 @@
       a {
          font-size: 1.5rem;
       }
+
+      nav .between a.active {
+         height: initial;
+      }
    }
 }
 
