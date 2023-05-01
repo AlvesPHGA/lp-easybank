@@ -83,9 +83,10 @@ export default {
 
       screens: {
          smallDevice: { max: '320px' },
-         mediumDevice: { min: '375px', max: '424px' },
-         largerDevice: { min: '425px', max: '767px' },
-         tablet: { min: '768px', max: '1023px' },
+         mediumDevice: { min: '321px', max: '375px' },
+         largerDevice: { min: '376px', max: '424px' },
+         tablet: { min: '425px', max: '768px' },
+         laptop: { min: '769px', max: '1024px' },
          highResolution: { min: '1920px' },
       },
    },
