@@ -36,7 +36,7 @@ const Header = () => {
                   active && 'openMenu'
                }`}
             >
-               <div className="between smallDevice:bg-white smallDevice:w-[90%] smallDevice:h-[70vh] smallDevice:flex smallDevice:flex-col smallDevice:gap-1 smallDevice:justify-center smallDevice:mt-[1.25rem] smallDevice:mx-auto smallDevice:items-center smallDevice:rounded-lg mediumDevice:bg-white mediumDevice:w-[90%] mediumDevice:h-[70vh] mediumDevice:flex mediumDevice:flex-col mediumDevice:gap-1 mediumDevice:justify-center mediumDevice:mt-[1.25rem] mediumDevice:mx-auto mediumDevice:items-center mediumDevice:rounded-lg">
+               <div className="between smallDevice:bg-white smallDevice:w-[90%] smallDevice:h-[70vh] smallDevice:flex smallDevice:flex-col smallDevice:gap-1 smallDevice:justify-center smallDevice:mt-[1.25rem] smallDevice:mx-auto smallDevice:items-center smallDevice:rounded-lg mediumDevice:bg-white mediumDevice:w-[90%] mediumDevice:h-[40vh] mediumDevice:flex mediumDevice:flex-col mediumDevice:gap-1 mediumDevice:justify-center mediumDevice:mt-[1.25rem] mediumDevice:mx-auto mediumDevice:items-center mediumDevice:rounded-lg">
                   <NavLink
                      to="/"
                      end
@@ -46,7 +46,7 @@ const Header = () => {
                   </NavLink>
                   <NavLink
                      to="/about"
-                     className="m-8 font-publicSans text-grayishBlue relative hover:text-darkBlue after:absolute  after:transparent after:w-full after:h-1 after:left-0 after:top-52 hover:after:bg-brightCyan hover:duration-500 [&.active]:text-darkBlue [&.active]:w-full [&.active]:h-1 [&.active]:after:bg-brightCyan smallDevice:text-darkBlue smallDevice:text-center smallDevice:relative smallDevice:after:content-none mediumDevice:text-darkBlue mediumDevice:text-center mediumDevice:relative mediumDevice:after:content-none"
+                     className="m-8 font-publicSans text-grayishBlue relative hover:text-darkBlue after:absolute  after:transparent after:w-full after:h-1 after:left-0 after:top-52 hover:after:bg-brightCyan hover:duration-500 [&.active]:text-darkBlue [&.active]:w-full [&.active]:h-1 [&.active]:after:bg-brightCyan smallDevice:text-darkBlue smallDevice:text-center smallDevice:relative smallDevice:after:content-none mediumDevice:text-darkBlue mediumDevice:text-center mediumDevice:relative mediumDevice:after:content-none mediumDevice:my-5"
                   >
                      About
                   </NavLink>
@@ -58,7 +58,7 @@ const Header = () => {
                   </NavLink>
                   <NavLink
                      to="/blog"
-                     className="m-8 font-publicSans text-grayishBlue relative hover:text-darkBlue after:absolute  after:transparent after:w-full after:h-1 after:left-0 after:top-52 hover:after:bg-brightCyan hover:duration-500 [&.active]:text-darkBlue [&.active]:w-full [&.active]:h-1 [&.active]:after:bg-brightCyan smallDevice:text-darkBlue smallDevice:text-center smallDevice:relative smallDevice:after:content-none mediumDevice:text-darkBlue mediumDevice:text-center mediumDevice:relative mediumDevice:after:content-none"
+                     className="m-8 font-publicSans text-grayishBlue relative hover:text-darkBlue after:absolute  after:transparent after:w-full after:h-1 after:left-0 after:top-52 hover:after:bg-brightCyan hover:duration-500 [&.active]:text-darkBlue [&.active]:w-full [&.active]:h-1 [&.active]:after:bg-brightCyan smallDevice:text-darkBlue smallDevice:text-center smallDevice:relative smallDevice:after:content-none mediumDevice:text-darkBlue mediumDevice:text-center mediumDevice:relative mediumDevice:after:content-none mediumDevice:my-5"
                   >
                      Blog
                   </NavLink>
