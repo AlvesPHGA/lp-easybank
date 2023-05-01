@@ -16,11 +16,13 @@ export default {
          custom02: '140% 100%',
          custom03: '100% 100%',
 
-         cBS_mbl01: '110% 160%',
+         cBS_mbl01: '105% 125%',
       },
 
       backgroundPosition: {
          customPosition01: '48px 1px',
+
+         subHomeMobile: '-7px -3px',
       },
 
       colors: {
