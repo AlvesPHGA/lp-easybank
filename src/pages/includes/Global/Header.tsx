@@ -14,7 +14,7 @@ const Header = () => {
    }, [pathname]);
 
    return (
-      <header className="h-24 flex bg-white relative z-[100] smallDevice:fixed smallDevice:w-[100vw] smallDevice:top-0 smallDevice:h-[100px] mediumDevice:w-[100vw] mediumDevice:top-0 mediumDevice:h-[100px]">
+      <header className="h-24 flex bg-white relative z-[100] smallDevice:fixed smallDevice:w-[100vw] smallDevice:top-0 smallDevice:h-[100px] mediumDevice:fixed mediumDevice:w-[100vw] mediumDevice:top-0 mediumDevice:h-[100px]">
          <div className="w-1200 m-auto flex justify-between items-center smallDevice:w-full smallDevice:px-4 mediumDevice:w-full mediumDevice:px-4">
             <div className="flex h-7">
                <img className="cursor-pointer" src={logoLP} alt="Logo site" />
