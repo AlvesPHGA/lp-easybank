@@ -12,18 +12,18 @@ const Card = ({
    content: string;
 }) => {
    return (
-      <div className="w-fit p-[0.5rem] smallDevice:text-center">
+      <div className="w-fit p-[0.5rem] smallDevice:text-center mediumDevice:text-center">
          <img
             src={svg}
             alt={title}
-            className="smallDevice:px-auto smallDevice:inline"
+            className="smallDevice:px-auto smallDevice:inline mediumDevice:inline"
          />
          <div>
-            <h3 className="mt-8 mb-6 text-darkBlue smallDevice:my-5">
+            <h3 className="mt-8 mb-6 text-darkBlue smallDevice:my-5 mediumDevice:my-5">
                {title}
             </h3>
             <p
-               className="text-grayishBlue smallDevice:text-[1rem]"
+               className="text-grayishBlue smallDevice:text-[1rem] mediumDevice:text-[1rem]"
                style={{ fontSize: `${18 / 16}rem` }}
             >
                {content}
