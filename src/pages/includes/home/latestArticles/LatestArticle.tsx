@@ -10,7 +10,7 @@ const LatestArticle = () => {
                Latest Articles
             </h2>
 
-            <section className="flex justify-between smallDevice:flex-col gap-6 mediumDevice:flex-col">
+            <section className="flex justify-between smallDevice:flex-col gap-6 mediumDevice:flex-col mediumDevice:items-center">
                {dataContentCard.map((dt) => (
                   <Card key={dt.id} {...dt} />
                ))}
