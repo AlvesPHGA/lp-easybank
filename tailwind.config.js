@@ -27,6 +27,7 @@ export default {
          subHomeMobile: '-7px -3px',
 
          mDev: 'center',
+         mDev02: 'center -34px',
       },
 
       colors: {
