@@ -10,10 +10,10 @@ import { ReactComponent as Instagram } from '../../../assets/svg/icon-instagram.
 
 const Footer: React.FC = () => {
    return (
-      <footer className="border bg-darkBlue py-16 smallDevice:py-11">
-         <div className="w-1200 mx-auto flex justify-between items-center smallDevice:w-full smallDevice:px-4 smallDevice:flex-col">
+      <footer className="border bg-darkBlue py-16 smallDevice:py-11 mediumDevice:py-11">
+         <div className="w-1200 mx-auto flex justify-between items-center smallDevice:w-full smallDevice:px-4 smallDevice:flex-col  mediumDevice:w-full mediumDevice:px-4 mediumDevice:flex-col">
             <div>
-               <Logo className="logo mb-12 smallDevice:w-[200px] smallDevice:mx-auto smallDevice:mb-8" />
+               <Logo className="logo mb-12 smallDevice:w-[200px] smallDevice:mx-auto smallDevice:mb-8 mediumDevice:w-[200px] mediumDevice:mx-auto mediumDevice:mb-8" />
                <div className="flex items-center gap-2">
                   <Facebook className="iconSociaMedia cursor-pointer" />
                   <YouTube className="iconSociaMedia cursor-pointer" />
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
                </div>
             </div>
 
-            <div className="navFooter mr-28 smallDevice:flex smallDevice:flex-col smallDevice:text-center smallDevice:mx-auto smallDevice:my-8">
+            <div className="navFooter mr-28 smallDevice:flex smallDevice:flex-col smallDevice:text-center smallDevice:mx-auto smallDevice:my-8 mediumDevice:flex mediumDevice:flex-col mediumDevice:text-center mediumDevice:mx-auto mediumDevice:my-8">
                <a className="about text-white text-sm hover:delay-200 hover:text-limeGreen cursor-pointer">
                   About Us
                </a>
@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
                </a>
             </div>
 
-            <div className="text-right smallDevice:text-center">
+            <div className="text-right smallDevice:text-center mediumDevice:text-center">
                <Button />
                <span className="block text-grayishBlue mt-5">
                   Easybank. All Rights Reserved
