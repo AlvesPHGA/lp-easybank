@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Subheader = ({ title }: { title: string }) => {
    return (
       <section className="py-10 bg-lightGrayishBlue smallDevice:mt-[100px] mediumDevice:mt-[100px]">
