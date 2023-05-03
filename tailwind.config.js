@@ -5,7 +5,7 @@ export default {
    content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
    theme: {
       backgroundImage: {
-         backDesktop: 'url("./src/assets/svg/bg-intro-desktop.svg")',
+         backDesktop: "url('./src/assets/svg/bg-intro-desktop.svg')",
          backDevice: 'url("./src/assets/svg/bg-intro-mobile.svg")',
 
          mockup: 'url("./src/assets/images/image-mockups.png")',
