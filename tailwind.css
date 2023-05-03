@@ -763,7 +763,7 @@ video {
 }
 
 .bg-backDesktop {
-  background-image: url(./src/assets/svg/bg-intro-desktop.svg);
+  background-image: url(src/assets/svg/bg-intro-desktop.svg);
 }
 
 .bg-mockup {
@@ -1045,8 +1045,8 @@ video {
     top: 0px;
   }
 
-  .smallDevice\:top-\[-115px\] {
-    top: -115px;
+  .smallDevice\:top-\[-100px\] {
+    top: -100px;
   }
 
   .smallDevice\:top-\[100px\] {
@@ -1112,8 +1112,12 @@ video {
     height: 100px;
   }
 
-  .smallDevice\:h-\[47vh\] {
-    height: 47vh;
+  .smallDevice\:h-\[40vh\] {
+    height: 40vh;
+  }
+
+  .smallDevice\:h-\[60vh\] {
+    height: 60vh;
   }
 
   .smallDevice\:h-\[70vh\] {
@@ -1170,15 +1174,19 @@ video {
   }
 
   .smallDevice\:bg-backDevice {
-    background-image: url(./src/assets/svg/bg-intro-mobile.svg);
+    background-image: url(src/assets/svg/bg-intro-mobile.svg);
+  }
+
+  .smallDevice\:bg-smallDev {
+    background-size: 105% 165%;
   }
 
   .smallDevice\:bg-\[center\] {
     background-position: center;
   }
 
-  .smallDevice\:bg-subHomeMobile {
-    background-position: -7px -3px;
+  .smallDevice\:bg-mDev {
+    background-position: center;
   }
 
   .smallDevice\:px-4 {
@@ -1194,6 +1202,11 @@ video {
   .smallDevice\:py-11 {
     padding-top: 2.75rem;
     padding-bottom: 2.75rem;
+  }
+
+  .smallDevice\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .smallDevice\:pb-10 {
@@ -1218,6 +1231,218 @@ video {
   }
 
   .smallDevice\:after\:content-none::after {
+    --tw-content: none;
+    content: var(--tw-content);
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .mediumDevice\:fixed {
+    position: fixed;
+  }
+
+  .mediumDevice\:absolute {
+    position: absolute;
+  }
+
+  .mediumDevice\:relative {
+    position: relative;
+  }
+
+  .mediumDevice\:left-0 {
+    left: 0px;
+  }
+
+  .mediumDevice\:top-0 {
+    top: 0px;
+  }
+
+  .mediumDevice\:top-\[-93px\] {
+    top: -93px;
+  }
+
+  .mediumDevice\:top-\[100px\] {
+    top: 100px;
+  }
+
+  .mediumDevice\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mediumDevice\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .mediumDevice\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .mediumDevice\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .mediumDevice\:mb-5 {
+    margin-bottom: 1.25rem;
+  }
+
+  .mediumDevice\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .mediumDevice\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .mediumDevice\:mt-\[1\.25rem\] {
+    margin-top: 1.25rem;
+  }
+
+  .mediumDevice\:mt-\[100px\] {
+    margin-top: 100px;
+  }
+
+  .mediumDevice\:block {
+    display: block;
+  }
+
+  .mediumDevice\:inline {
+    display: inline;
+  }
+
+  .mediumDevice\:flex {
+    display: flex;
+  }
+
+  .mediumDevice\:hidden {
+    display: none;
+  }
+
+  .mediumDevice\:h-\[100px\] {
+    height: 100px;
+  }
+
+  .mediumDevice\:h-\[40vh\] {
+    height: 40vh;
+  }
+
+  .mediumDevice\:h-\[43\.1vh\] {
+    height: 43.1vh;
+  }
+
+  .mediumDevice\:h-\[65vh\] {
+    height: 65vh;
+  }
+
+  .mediumDevice\:h-\[calc\(100vh-100px\)\] {
+    height: calc(100vh - 100px);
+  }
+
+  .mediumDevice\:w-\[100vw\] {
+    width: 100vw;
+  }
+
+  .mediumDevice\:w-\[200px\] {
+    width: 200px;
+  }
+
+  .mediumDevice\:w-\[90\%\] {
+    width: 90%;
+  }
+
+  .mediumDevice\:w-full {
+    width: 100%;
+  }
+
+  .mediumDevice\:flex-col {
+    flex-direction: column;
+  }
+
+  .mediumDevice\:items-center {
+    align-items: center;
+  }
+
+  .mediumDevice\:justify-center {
+    justify-content: center;
+  }
+
+  .mediumDevice\:gap-8 {
+    gap: 2rem;
+  }
+
+  .mediumDevice\:rounded-lg {
+    border-radius: 0.5rem;
+  }
+
+  .mediumDevice\:bg-white {
+    --tw-bg-opacity: 1;
+    background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+  }
+
+  .mediumDevice\:bg-backDevice {
+    background-image: url(src/assets/svg/bg-intro-mobile.svg);
+  }
+
+  .mediumDevice\:bg-custom03 {
+    background-size: 100% 100%;
+  }
+
+  .mediumDevice\:bg-mediumDev {
+    background-size: 105% 165%;
+  }
+
+  .mediumDevice\:bg-mDev {
+    background-position: center;
+  }
+
+  .mediumDevice\:bg-mDev02 {
+    background-position: center -34px;
+  }
+
+  .mediumDevice\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .mediumDevice\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .mediumDevice\:py-11 {
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
+  }
+
+  .mediumDevice\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .mediumDevice\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .mediumDevice\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .mediumDevice\:text-center {
+    text-align: center;
+  }
+
+  .mediumDevice\:text-\[1rem\] {
+    font-size: 1rem;
+  }
+
+  .mediumDevice\:text-darkBlue {
+    --tw-text-opacity: 1;
+    color: hsl(233 26% 24% / var(--tw-text-opacity));
+  }
+
+  .mediumDevice\:after\:content-none::after {
     --tw-content: none;
     content: var(--tw-content);
   }
