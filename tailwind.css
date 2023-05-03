@@ -763,11 +763,11 @@ video {
 }
 
 .bg-backDesktop {
-  background-image: url(src/assets/svg/bg-intro-desktop.svg);
+  background-image: url("./src/assets/svg/bg-intro-desktop.svg");
 }
 
 .bg-mockup {
-  background-image: url(./src/assets/images/image-mockups.png);
+  background-image: url("./src/assets/images/image-mockups.png");
 }
 
 .bg-custom {
@@ -1174,7 +1174,7 @@ video {
   }
 
   .smallDevice\:bg-backDevice {
-    background-image: url(src/assets/svg/bg-intro-mobile.svg);
+    background-image: url("./src/assets/svg/bg-intro-mobile.svg");
   }
 
   .smallDevice\:bg-smallDev {
@@ -1382,7 +1382,7 @@ video {
   }
 
   .mediumDevice\:bg-backDevice {
-    background-image: url(src/assets/svg/bg-intro-mobile.svg);
+    background-image: url("./src/assets/svg/bg-intro-mobile.svg");
   }
 
   .mediumDevice\:bg-custom03 {
