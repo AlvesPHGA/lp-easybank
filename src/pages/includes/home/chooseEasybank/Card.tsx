@@ -19,7 +19,7 @@ const Card = ({
             className="smallDevice:px-auto smallDevice:inline mediumDevice:inline"
          />
          <div>
-            <h3 className="mt-8 mb-6 text-darkBlue smallDevice:my-5 mediumDevice:my-5">
+            <h3 className="title mt-8 mb-6 text-darkBlue smallDevice:my-5 mediumDevice:my-5">
                {title}
             </h3>
             <p
