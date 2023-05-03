@@ -44,6 +44,8 @@ export default {
          white: 'hsl(0, 0%, 100%)',
       },
 
+      corePlugins: ['backgroundImage'],
+
       fontSize: {
          title: `${38 / 16}rem`,
          titleCard: `${18 / 16}rem`,
