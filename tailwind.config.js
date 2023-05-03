@@ -18,6 +18,7 @@ export default {
 
          cBS_mbl01: '105% 125%',
 
+         smallDev: '105% 165%',
          mediumDev: '105% 165%',
       },
 
