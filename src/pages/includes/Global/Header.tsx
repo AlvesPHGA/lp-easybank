@@ -36,7 +36,7 @@ const Header = () => {
                   active && 'openMenu'
                }`}
             >
-               <div className="between smallDevice:bg-white smallDevice:w-[90%] smallDevice:h-[70vh] smallDevice:flex smallDevice:flex-col smallDevice:gap-1 smallDevice:justify-center smallDevice:mt-[1.25rem] smallDevice:mx-auto smallDevice:items-center smallDevice:rounded-lg mediumDevice:bg-white mediumDevice:w-[90%] mediumDevice:h-[40vh] mediumDevice:flex mediumDevice:flex-col mediumDevice:gap-1 mediumDevice:justify-center mediumDevice:mt-[1.25rem] mediumDevice:mx-auto mediumDevice:items-center mediumDevice:rounded-lg">
+               <div className="between smallDevice:bg-white smallDevice:w-[90%] smallDevice:h-[70vh] smallDevice:flex smallDevice:flex-col smallDevice:gap-1 smallDevice:justify-center smallDevice:mt-[1.25rem] smallDevice:mx-auto smallDevice:items-center smallDevice:rounded-lg mediumDevice:bg-white mediumDevice:w-[90%] mediumDevice:h-[40vh] mediumDevice:flex mediumDevice:flex-col mediumDevice:justify-center mediumDevice:mt-[1.25rem] mediumDevice:mx-auto mediumDevice:items-center mediumDevice:rounded-lg">
                   <NavLink
                      to="/"
                      end
