@@ -207,6 +207,9 @@
          background-image: url('./assets/svg/bg-intro-mobile.svg');
       }
 
+      .back-mockup {
+         background-image: url('./assets/images/image-mockups.png');
+      }
       .navFooter a {
          font-size: 1.125rem;
       }
