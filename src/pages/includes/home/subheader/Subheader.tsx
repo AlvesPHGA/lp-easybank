@@ -18,7 +18,7 @@ const Subheader = () => {
             <Button />
          </div>
 
-         <div className="absolute bg-mockup bg-ba w-[50vw] h-[840px] z-[-1] bg-no-repeat bg-custom bg-[152px] top-[-115px] posi right-0 smallDevice:h-[60vh] smallDevice:left-0 smallDevice:w-full smallDevice:bg-contain smallDevice:bg-[center] smallDevice:top-[-100px] mediumDevice:h-[65vh] mediumDevice:left-0 mediumDevice:w-full mediumDevice:bg-custom03 mediumDevice:bg-mDev02 mediumDevice:top-[-93px]"></div>
+         <div className="back-mockup absolute bg-ba w-[50vw] h-[840px] z-[-1] bg-no-repeat bg-custom bg-[152px] top-[-115px] posi right-0 smallDevice:h-[60vh] smallDevice:left-0 smallDevice:w-full smallDevice:bg-contain smallDevice:bg-[center] smallDevice:top-[-100px] mediumDevice:h-[65vh] mediumDevice:left-0 mediumDevice:w-full mediumDevice:bg-custom03 mediumDevice:bg-mDev02 mediumDevice:top-[-93px]"></div>
       </section>
    );
 };

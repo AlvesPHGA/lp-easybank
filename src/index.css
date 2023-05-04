@@ -105,6 +105,10 @@
       background-image: url('./assets/svg/bg-intro-desktop.svg');
    }
 
+   .back-mockup {
+      background-image: url('./assets/images/image-mockups.png');
+   }
+
    .logo {
       width: 220px;
    }
