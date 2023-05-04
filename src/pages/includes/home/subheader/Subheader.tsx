@@ -3,7 +3,7 @@ import Button from '../../../../components/Button';
 const Subheader = () => {
    return (
       <section className="relative h-fit pt-[7rem] pb-[7.7rem] flex bg-veryLightGray z-0 smallDevice:flex-col smallDevice:mt-[100px] smallDevice:pt-0 smallDevice:pb-10 mediumDevice:flex-col mediumDevice:mt-[100px] mediumDevice:pt-0 mediumDevice:pb-16">
-         <div className="back-home-intro absolute  right-0 z-[-1] w-[57vw] h-[100vh] top-[-215px] bg-cover bg-no-repeat bg-customPosition01 bg-custom02 smallDevice:block smallDevice:h-[40vh] smallDevice:w-full smallDevice:relative smallDevice:top-0 smallDevice:bg-smallDev smallDevice:bg-mDev mediumDevice:block mediumDevice:bg-backDevice mediumDevice:h-[43.1vh] mediumDevice:w-full mediumDevice:relative mediumDevice:top-0 mediumDevice:bg-mediumDev mediumDevice:bg-mDev"></div>
+         <div className="back-home-intro absolute  right-0 z-[-1] w-[57vw] h-[100vh] top-[-215px] bg-cover bg-no-repeat bg-customPosition01 bg-custom02 smallDevice:block smallDevice:h-[40vh] smallDevice:w-full smallDevice:relative smallDevice:top-0 smallDevice:bg-smallDev smallDevice:bg-mDev mediumDevice:block  mediumDevice:h-[43.1vh] mediumDevice:w-full mediumDevice:relative mediumDevice:top-0 mediumDevice:bg-mediumDev mediumDevice:bg-mDev"></div>
 
          <div className="w-1200 m-auto smallDevice:w-full smallDevice:px-4 smallDevice:mt-8 mediumDevice:w-full mediumDevice:px-4 mediumDevice:mt-8">
             <h1 className="text-darkBlue w-[600px] smallDevice:w-full smallDevice:text-4xl smallDevice:text-center mediumDevice:w-full mediumDevice:text-4xl mediumDevice:text-center">
