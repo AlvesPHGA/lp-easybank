@@ -101,6 +101,10 @@
 }
 
 @layer utilities {
+   .back-home-intro {
+      background-image: url('./assets/svg/bg-intro-desktop.svg');
+   }
+
    .logo {
       width: 220px;
    }
