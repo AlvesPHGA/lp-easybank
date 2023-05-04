@@ -19,7 +19,7 @@ export default {
          cBS_mbl01: '105% 125%',
 
          smallDev: '105% 165%',
-         mediumDev: '105% 165%',
+         mediumDev: '225% 157%',
       },
 
       backgroundPosition: {
@@ -29,6 +29,8 @@ export default {
 
          mDev: 'center',
          mDev02: 'center -34px',
+
+         mediumDevSize: '-104px -135px',
       },
 
       colors: {
