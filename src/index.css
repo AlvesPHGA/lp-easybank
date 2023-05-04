@@ -203,6 +203,10 @@
    }
 
    @media (max-width: 320px) {
+      .back-home-intro {
+         background-image: url('./assets/svg/bg-intro-mobile.svg');
+      }
+
       .navFooter a {
          font-size: 1.125rem;
       }
