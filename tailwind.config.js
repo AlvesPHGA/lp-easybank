@@ -20,6 +20,9 @@ export default {
 
          smallDev: '105% 165%',
          mediumDev: '225% 157%',
+
+         largerDev: '100% 122%',
+         largerDev_b: '225% 180%',
       },
 
       backgroundPosition: {
@@ -31,6 +34,9 @@ export default {
          mDev02: 'center -34px',
 
          mediumDevSize: '-104px -135px',
+
+         largerDevSize: 'center -77px',
+         largerDevSize_b: '-120px -245px',
       },
 
       colors: {
