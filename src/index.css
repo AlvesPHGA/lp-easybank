@@ -98,6 +98,32 @@
          height: initial;
       }
    }
+
+   @media (min-width: 376px) and (max-width: 425px) {
+      h1,
+      h2 {
+         font-size: 2.25rem;
+         line-height: 2.6rem;
+      }
+
+      p {
+         font-size: 1.125rem;
+         line-height: 1.75rem;
+      }
+
+      nav {
+         height: calc(100vh-100px);
+         background: linear-gradient(180deg, hsl(233, 26%, 24%), transparent);
+      }
+
+      a {
+         font-size: 1.5rem;
+      }
+
+      nav .between a.active {
+         height: initial;
+      }
+   }
 }
 
 @layer utilities {
